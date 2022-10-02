@@ -1,9 +1,11 @@
+//Half pyramir of number 
 #include <bits/stdc++.h>
 using namespace std;
+//Starting of main function 
 int main()
 {
     int n;
-    cout << "Enter the number\n";
+    cout << "Enter the number\n"; // Numbers of rows 
     cin >> n;
     for (int i = 1; i <= n; i++)
     {
