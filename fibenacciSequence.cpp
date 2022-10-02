@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//Function for fibenacci Sequence 
 
 void feb(int n)
 {
@@ -15,6 +16,7 @@ void feb(int n)
     }
     return;
 }
+//Starting of main function 
 int main()
 {
     int n;
