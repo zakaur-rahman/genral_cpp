@@ -1,16 +1,16 @@
 #include <iostream>
 
-
 using namespace std;
 int main() {
     // Write C++ code here
-    int n=4; int row=1;
+    int n=5; int row=1; 
     while(row<=n){
         int col=1;
+        char ch='A'+n-row;
         while(col<=row){
-            char ch='D'+col-row;
             cout<<ch<<" ";
             col+=1;
+            ch+=1;
         }cout<<endl;
         row+=1;
     }
