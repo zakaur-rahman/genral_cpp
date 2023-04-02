@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// main function
 int main()
 {
    int row=1, n=4;
