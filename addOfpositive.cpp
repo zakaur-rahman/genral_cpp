@@ -1,7 +1,7 @@
 /*****************************Program for adding of positive number*********************************/
 #include <bits/stdc++.h>
 using namespace std;
-int r;
+
 int main()
 {
     int n;
