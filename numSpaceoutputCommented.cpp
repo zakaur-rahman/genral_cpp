@@ -1,10 +1,10 @@
 #include <iostream>
 
 using namespace std;
-
+// main function
 int main()
 {
-   int row=1, n=4 , b=0;
+   int row=1, n=4;
    while(row<=n){
        int col=n-row;
        while(col){
@@ -13,8 +13,8 @@ int main()
        }
        int val=1;
        while(val<=row){
-           b+=1;
-           cout<<b;
+           
+           cout<<row;
            val+=1;
        }
        cout<<endl;
@@ -23,11 +23,9 @@ int main()
    
 }
 
-
-
 /*
    1
-  23
- 456
-78910
+  22
+ 333
+4444
 */
