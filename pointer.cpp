@@ -2,11 +2,11 @@
 using namespace std;
 
 void update(int** p2){
-    *p2 = *p2 + 1;
+    **p2 = **p2 + 1;
 }
 
 int main(){
-    int i = 5;
+    /* int i = 5;
     int *p = &i;
     int **p2 = &p;
 
@@ -23,8 +23,14 @@ int main(){
     cout << *p2 << endl;
     cout << p2 << endl;
     cout << &p2<<endl;
-
+    cout << i;
     cout << endl << endl;
+ */
 
+    int i = 110;
+    int *p = &i;
+    int **p1 = &p;
+    int second = ++**(p1) + 9;
+    cout << i <<" " << second <<endl;
 
 }
