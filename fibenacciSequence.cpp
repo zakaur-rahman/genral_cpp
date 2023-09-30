@@ -16,7 +16,8 @@ void feb(int n)
     }
     return;
 }
-//Starting of main function 
+
+//Starting of main function
 int main()
 {
     int n;
