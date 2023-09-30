@@ -1,5 +1,8 @@
-class Solution {
-public:
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
   int bitwiseComplement(int n) {
 
     if(n==0){
@@ -16,4 +19,7 @@ public:
     n = (~n) & mask;
     return n;
   }
-};
+
+int main(){
+  cout << bitwiseComplement(5);
+}
